@@ -1,0 +1,190 @@
+#mainNav {
+  min-height: 56px;
+  background-color: transparent;
+
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .navbar-brand {
+    padding: .5rem 0;
+  }
+  .navbar-nav .nav-item {
+    &:hover {
+      color: fade(white, 100%);
+      color: white;
+      outline: none;
+      background-color: transparent;
+    }
+    &:active, &:focus {
+      outline: none;
+      background-color: #161616;
+    }
+  }
+}
+
+/*  SP スマホ only  */
+@media screen and (max-width: 992px) {
+  #mainNav {
+
+//    .navbar-shrink{
+//     background: transparentize($darkblue, 0.5);効かない
+// }
+    .navbar-nav .border-top-item {
+      border-top: 2px solid $bluegray;
+    }
+    .navbar-nav .depth0 {
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      color: $white;
+    }
+    .navbar-nav .depth1 {
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 0.9;
+      color: $ghostwhite;
+    }
+
+    .navbar-nav .social .fab{
+      font-weight: normal;
+      font-size: 1.6rem;
+      line-height: 0.9;
+      color: $ghostwhite;
+    }
+
+    .navbar-nav .nav-language .nav-link{
+      font-weight: normal;
+      font-size: .9rem;
+      line-height: 0.9;
+      color: $ghostwhite;
+    }
+
+    .navbar-nav .nav-language .language-item{
+      font-weight: normal;
+      font-size: .9rem;
+      line-height: 0.9;
+      color: $ghostwhite;
+    }
+
+.language-item + .language-item::before{
+  content: "/";
+  margin-left: .2em;
+  margin-right: .2em;
+}
+
+
+  }
+}
+
+/*breakpoint and up - mega dropdown styles*/
+@media screen and (min-width: 992px) {
+  /*remove the padding from the navbar so the dropdown hover state is not broken*/
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color :transparentize($darkblue, 0.8);
+
+    .nav-item {
+      padding: 0rem;
+      margin: 0 .25rem;
+    }
+    .dropdown {
+      position: static;
+    }
+    .dropdown-menu {
+      width: 30%;
+
+      /*  height of nav-item  */
+      top: 64px;
+      display: block;
+      visibility: hidden;
+      opacity: 0.9;
+      transition: visibility 0s, opacity 0.3s linear;
+      // border:3px solid rgba(0,0,0,.15);
+      border: none;
+      background-color: transparentize($darkblue, 0.5);
+    }
+
+        .dropdown-menu .border-right-item {
+      border-right: 2px solid transparentize($darkblue, 0.5);
+    }
+
+    .dropdown-menu .border-bottom-item {
+      border-bottom: 0.25rem solid $primary;
+    }
+
+
+
+
+
+
+
+
+    .dropdown {
+      &:hover .dropdown-menu, .dropdown-menu:hover {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.3s linear;
+      }
+    }
+
+
+
+
+
+
+  }
+  /*remove the padding from the nav-item and add some margin to give some breathing room on hovers*/
+  /* makes the dropdown full width  */
+  /* shows the dropdown menu on hover */
+  #mainNav {
+    transition: background-color 0.5s ease-in-out;
+    .nav-link {
+      transition: none;
+      padding: 1.2rem 1.5rem;
+      color: $white;
+      &:hover {
+        color: #fff;
+      }
+      &:active {
+        color: $white;
+      }
+    }
+    &.navbar-shrink .nav-link {
+      &:hover {
+        color: $white;
+      }
+      &:active {
+        color: #FFF;
+      }
+      &.active {
+        color: #FFF;
+        outline: none;
+        border-bottom: 0.25rem solid $primary;
+      }
+    }
+  }
+}
+
+/*  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: transparent;
+      transition: background-color 0.3s ease-in-out; }
+
+
+ }*/
