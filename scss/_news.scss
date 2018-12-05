@@ -3,6 +3,28 @@
   background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
 
   p {
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+
   }
+
+   .post p {
+    color: $white;
+    line-height: 20px;
+}
+
+.post p span {
+    color: $lightgray;
+    display: block;
+    font-size: 12px;
+}
+
+.heading {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 22px;
+
+
+}
+
+
 }
