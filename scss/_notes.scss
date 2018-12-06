@@ -5,31 +5,16 @@
     padding: 2rem;
   }
 }
-
-.card-contents {
-  width: 100%;
-  object-fit: cover;
-  height: 290px;
-}
-
-.card-wrap {
-  object-fit: cover;
-  height: 420px;
-  width: 85%;
-  margin: auto;
-}
-
-// @media (min-width: 992px) {
-//   // .collections-section .featured-text {
-//   //   padding: 0 0 0 2rem;
-//   //   border-left: 0.5rem solid $primary;
-//   // }
-// }
-
 .notes-section .notes-text {
   padding: 3rem;
   font-size: 90%;
 }
+
+
+  .notes-section {
+
+  }
+
 
 @media (min-width: 992px) {
   .notes-section .notes-text {

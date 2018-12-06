@@ -46,3 +46,24 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['sass', 'sync', 'reload', 'watch']);
+
+
+// Sassをコンパイルするタスク設定
+gulp.task("default", function () {
+    gulp.src('vendor/bootstrap/scss/bootstrap.scss') // コンパイル対象のSassファイル
+        .pipe(sass())           // コンパイル実行
+        .pipe(autoprefixer())   // ベンダープレフィックスの付与
+        .pipe(gulp.dest('vendor/bootstrap/css/bootstrap.css')); // cssフォルダに出力
+});
+
+
+gulp.task("default", function () {
+    // bootstrapのscssフォルダを監視し、変更があったらコンパイルする
+    gulp.watch('vendor/bootstrap/scss/bootstrap.scss', function() {
+        gulp.src('vendor/bootstrap/scss/bootstrap.scss')
+            .pipe(sass())
+            .pipe(autoprefixer())
+            .pipe(gulp.dest('vendor/bootstrap/css/bootstrap.css'));
+    });
+});
+
