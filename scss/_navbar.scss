@@ -102,8 +102,12 @@
     .dropdown {
       position: static;
     }
+
+
+
+
     .dropdown-menu {
-      width: 30%;
+      // width: 15rem;
 
       /*  height of nav-item  */
       top: 64px;
@@ -114,7 +118,17 @@
       // border:3px solid rgba(0,0,0,.15);
       border: none;
       background-color: transparentize($darkblue, 0.5);
+
     }
+        .dropdown-menu-right {
+      width: 30rem;
+    }
+
+            .dropdown-menu-left {
+      width: 20rem;
+    }
+
+
 
         .dropdown-menu .border-right-item {
       border-right: 2px solid transparentize($darkblue, 0.5);

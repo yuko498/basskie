@@ -70,7 +70,6 @@
     .navbar .dropdown {
       position: static; }
     .navbar .dropdown-menu {
-      width: 30%;
       /*  height of nav-item  */
       top: 64px;
       display: block;
@@ -79,6 +78,10 @@
       transition: visibility 0s, opacity 0.3s linear;
       border: none;
       background-color: rgba(23, 54, 128, 0.5); }
+    .navbar .dropdown-menu-right {
+      width: 30rem; }
+    .navbar .dropdown-menu-left {
+      width: 20rem; }
     .navbar .dropdown-menu .border-right-item {
       border-right: 2px solid rgba(23, 54, 128, 0.5); }
     .navbar .dropdown-menu .border-bottom-item {
