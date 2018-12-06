@@ -4,7 +4,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/mv-img.jpg');
+
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 90%), linear-gradient(to bottom, #{fade-out($black, .5)} 0%,transparent 19%,transparent), url('../img/mv-img.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
