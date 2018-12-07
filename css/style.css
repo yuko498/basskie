@@ -261,6 +261,29 @@
   padding: 3rem;
   font-size: 90%; }
 
+/* tab-swiper */
+.notes-section {
+  /* Decorations */ }
+  .notes-section .notes-card > .row {
+    overflow-x: auto;
+    white-space: nowrap; }
+  .notes-section .notes-card > .row > .col-12 + .col-sm-6 {
+    display: inline-block;
+    float: none;
+    height: 400px;
+    width: 200px; }
+  .notes-section .row > .col-12 + .col-sm-6 {
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 20px;
+    padding-top: 18px; }
+  .notes-section .col-sm-6:nth-child(3n+1) {
+    background: #c69; }
+  .notes-section .col-sm-6:nth-child(3n+2) {
+    background: #9c6; }
+  .notes-section .col-sm-6:nth-child(3n+3) {
+    background: #69c; }
+
 @media (min-width: 992px) {
   .notes-section .notes-text {
     padding: 5rem; }
