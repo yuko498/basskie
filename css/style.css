@@ -271,12 +271,14 @@
     display: inline-block;
     float: none;
     height: 400px;
-    width: 200px; }
-  .notes-section .row > .col-12 + .col-sm-6 {
+    max-width: 250px; }
+  .notes-section .row > .col-12 {
     color: #fff;
     font-size: 48px;
     padding-bottom: 20px;
-    padding-top: 18px; }
+    padding-top: 18px;
+    width: 90%;
+    max-width: 90%; }
   .notes-section .col-sm-6:nth-child(3n+1) {
     background: #c69; }
   .notes-section .col-sm-6:nth-child(3n+2) {

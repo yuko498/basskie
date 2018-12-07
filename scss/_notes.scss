@@ -17,15 +17,15 @@
   overflow-x: auto;
   white-space: nowrap;
 }
-.notes-card > .row > .col-12 + .col-sm-6 {
+.notes-card > .row > .col-12 + .col-sm-6{
   display: inline-block;
   float: none;
   height: 400px;
-  width:200px;
+  max-width:250px;
 }
 
 /* Decorations */
-.row > .col-12 + .col-sm-6 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
+.row > .col-12 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; width:90%; max-width:90%;}
 .col-sm-6:nth-child(3n+1) { background: #c69; }
 .col-sm-6:nth-child(3n+2) { background: #9c6; }
 .col-sm-6:nth-child(3n+3) { background: #69c; }
