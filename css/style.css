@@ -368,25 +368,6 @@
     background: #fdfdfd;
     line-height: 25px;
     padding: 30px 0; }
-  .about-section #accordion {
-    list-style: none;
-    padding: 0;
-    height: auto;
-    overflow: hidden;
-    background: #7d8d96; }
-  .about-section #accordion li {
-    float: left;
-    display: block;
-    height: 500px;
-    width: 50px;
-    overflow: hidden;
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5em;
-    border-left: 1px solid #fff; }
-  .about-section #accordion li.active {
-    width: 900px; }
 
 .contact-section {
   padding: 5rem 0 0; }
