@@ -39,4 +39,14 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+
+  // About>Background-accordion
+var section = $('li');
+
+function toggleAccordion() {
+  section.removeClass('active');
+  $(this).addClass('active');
+}
+section.on('click', toggleAccordion);
+
 })(jQuery); // End of use strict
