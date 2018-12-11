@@ -260,7 +260,7 @@
   <div id="profile" class="tab-pane" role="tabpanel" aria-labelledby="profile-tab">
   プロフィールの文章です。...
 <ul id="accordion">
-      <li>
+      <li class="first-list">
         <strong>Section 1 Header</strong><br/>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.
       </li>
@@ -272,10 +272,7 @@
         <strong>Section 3 Header</strong><br/>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.
       </li>
-      <li>
-        <strong>Section 4 Header</strong><br/>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.
-    </li>
+
   </ul>
 </div>
 
@@ -428,12 +425,12 @@
   // Background-Accordion
   $(document).ready(function(){
 
-    activeItem = $("#accordion li:first");
+    activeItem = $("#accordion .first-list");
     $(activeItem).addClass('active');
 
     $("#accordion li").hover(function(){
         $(activeItem).animate({width: "50px"}, {duration:300, queue:false});
-        $(this).animate({width: "450px"}, {duration:300, queue:false});
+        $(this).animate({width: "900px"}, {duration:300, queue:false});
         activeItem = this;
     });
 

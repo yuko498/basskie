@@ -377,22 +377,16 @@
   .about-section #accordion li {
     float: left;
     display: block;
-    height: 170px;
+    height: 500px;
     width: 50px;
-    padding: 15px 0;
     overflow: hidden;
     color: #fff;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5em;
     border-left: 1px solid #fff; }
-  .about-section #accordion li img {
-    border: none;
-    border-right: 1px solid #fff;
-    float: left;
-    margin: -15px 15px 0 0; }
   .about-section #accordion li.active {
-    width: 450px; }
+    width: 900px; }
 
 .contact-section {
   padding: 5rem 0 0; }
