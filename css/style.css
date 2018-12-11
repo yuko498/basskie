@@ -368,6 +368,45 @@
     background: #fdfdfd;
     line-height: 25px;
     padding: 30px 0; }
+  .about-section .background-tab {
+    /*===== TABSET =====*/ }
+    .about-section .background-tab .tabset {
+      display: flex; }
+      .about-section .background-tab .tabset input[type="radio"]:checked + .tab-label {
+        border: none; }
+      .about-section .background-tab .tabset .tab-label {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: solid 1px; }
+        .about-section .background-tab .tabset .tab-label div {
+          display: block;
+          transform: rotate(-90deg);
+          height: 50px;
+          padding: 0 10px;
+          box-sizing: border-box; }
+        .about-section .background-tab .tabset .tab-label:last-of-type {
+          border-bottom: none; }
+        .about-section .background-tab .tabset .tab-label:hover {
+          cursor: pointer; }
+    .about-section .background-tab .tab-content {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      flex: 1;
+      overflow: auto;
+      display: none; }
+    .about-section .background-tab .tabset input[type="radio"] {
+      display: none; }
+      .about-section .background-tab .tabset input[type="radio"]:checked + * + .tab-content {
+        display: block; }
+    .about-section .background-tab h2 {
+      font-size: 3rem; }
+    .about-section .background-tab .tabset label {
+      font-size: 2rem;
+      line-height: 50px;
+      text-transform: uppercase; }
 
 .contact-section {
   padding: 5rem 0 0; }

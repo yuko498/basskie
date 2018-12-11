@@ -84,6 +84,65 @@ h6, h6 a{
 
 .background-tab{
 
+/*===== TABSET =====*/
+
+.tabset {
+  // border: solid 10px;
+  display: flex;
+  // height: 250px;
+  input[type="radio"]:checked + .tab-label {
+    border: none;
+    // border: 1px;
+  }
+  .tab-label {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px;
+    div {
+      display: block;
+      transform: rotate(-90deg);
+      height: 50px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      // vertical-align: bottom;
+    }
+    &:last-of-type {
+      border-bottom: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.tab-content {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+  overflow: auto;
+  display: none;
+}
+
+.tabset input[type="radio"] {
+  display: none;
+  &:checked + * + .tab-content {
+    display: block;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.tabset label {
+  font-size: 2rem;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
 }// /background-tab
 
 
