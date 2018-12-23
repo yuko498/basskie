@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>basskie</title>
+
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Owl Carousel jQuery-->
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"> -->
+
+  <!-- Custom fonts for this template -->
+<!--   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
+
+
+  <!-- Custom styles for this template -->
+    <link href="css/footer.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  <!-- Loader -->
+  <div class="loader loader-bg">
+    <div class="loader-inner ball-pulse-rise">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm px-4" id="mainNav">
+      <div class="container">
+
+        <a class="navbar-brand js-scroll-trigger dropshadow" href="#page-top"><img src="img/title.png" width="100px" alt=""></a>
+        <button class="navbar-toggler navbar-toggler-right dropshadow" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle avigation">
+
+         <i class="navbar-toggler-icon"></i>
+       </button>
+
+
+
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link depth0 js-scroll-trigger" href="index.html">Top</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link depth0 js-scroll-trigger border-top-item" href="#news">News</a>
+          </li>
+
+
+          <li class="nav-item d-block d-lg-none border-top-item">
+            <a class="nav-link depth0" href="blog.html">Notes</a>
+            <div class="navbar-nav d-flex flex-row">
+              <div class="nav-item ml-3">
+               <a class="nav-link depth1" href="page-music.html">Music</a>
+             </div>
+
+             <div class="nav-item ml-3">
+               <a class="nav-link depth1" href="page-favorites.html">Favorite</a>
+             </div>
+
+             <div class="nav-item ml-3">
+               <a class="nav-link depth1" href="page-gallery.html">Photo Gallery</a>
+             </div>
+           </div>
+
+         </li>
+
+
+
+
+         <li class="nav-item d-block d-lg-none border-top-item">
+          <a class="nav-link depth0" href="about.html">About</a>
+          <div class="navbar-nav d-flex flex-row">
+            <div class="nav-item ml-3">
+             <a class="nav-link depth1" href="about.html">History&Works</a>
+           </div>
+
+           <div class="nav-item ml-3">
+             <a class="nav-link depth1" href="about.html">Background</a>
+           </div>
+
+
+
+         </div>
+       </li>
+
+
+      <li class="nav-item d-none d-lg-block">
+        <a class="nav-link depth0 border-top-item" href="blog.html">Notes</a>
+      </li>
+
+
+      <li class="nav-item d-none d-lg-block">
+        <a class="nav-link depth0 border-top-item" href="about.html">About</a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link depth0 js-scroll-trigger border-top-item" href="#contact">Contact</a>
+      </li>
+
+      <div class="social d-flex d-block d-lg-none justify-content-center border-top-item p-3">
+        <a href="#" class="mx-3">
+          <i class=" fa fa-soundcloud"></i>
+        </a>
+        <a href="#" class="mx-3">
+          <i class=" fa fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-3">
+          <i class=" fa fa-youtube"></i>
+        </a>
+      </div>
+
+
+
+      <div class="nav-language d-flex justify-content-center d-block d-lg-none">
+       <div class="nav-item">
+         <a class="nav-link language-item" href="#">-Ja-/- </a>
+       </div>
+
+
+       <div class="nav-item">
+         <a class="nav-link language-item" href="#new"> En-</a>
+       </div>
+
+     </div>
+
+   </ul><!-- /navbar-nav ml-auto (navの中で右寄せしたいもの)-->
+ </div><!-- /collapse navbar-collapse -->
+
+
+</div><!-- /container -->
+</nav>
+
+
+<!-- top-header.phpここまで -->
+
+
+
+
+<!-- About Section -->
+<div class="bg fixed"></div>
+
+<section id="about" class="about-section">
+
+  <div class="about-wrapper col-12 m-auto">
+
+    <div class="col-md-6 text-center mx-auto">
+      <h1>About</h1>
+      <h6><a href="#">Home</a> About</h6>
+    </div>
+    <!-- タブここから -->
+
+    <!-- タブ部分 -->
+    <ul id="myTab" class="nav nav-tabs nav-justified w-100" role="tablist">
+
+
+      <li class="nav-item">
+        <a href="#home" id="home-tab" class="nav-link active" role="tab" data-toggle="tab" aria-controls="home" aria-selected="true">History & Works</a>
+      </li>
+      <li class="nav-item">
+        <a href="#profile" id="profile-tab" class="nav-link" role="tab" data-toggle="tab" aria-controls="profile" aria-selected="false">Backgrounds</a>
+      </li>
+
+    </ul>
+
+    <!-- パネル部分 -->
+    <div id="myTabContent" class="tab-content">
+      <div id="home" class="tab-pane active history-tab" role="tabpanel" aria-labelledby="home-tab">ホームの文章です。...
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col px-1 px-md-3">
+              正しい使い方
+              <h2>History&Works</h2>
+              <p>プロフィールの文章です。の始まりです...</p>
+              <h2 class="text-center">History</h2>
+              <button class="toggleCollapseAll" data-toggle="collapse" data-target=".demoAll">Show All</button>
+
+              <ul class="timeline p-3">
+                <!--childhood-->
+                <li>
+                  <button class="tldate" data-toggle="collapse" data-target=".demo">childhood</button>
+                </li>
+
+                <li class="demo demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+                    <div class="tl-heading">
+                      <h4>in those days</h4>
+                      <p><small class="text-muted">5 years old</small></p>
+                    </div>
+                    <div class="tl-body">
+                      <p>Cab driver Mitch Winehouse and his pharmacist wife Janis welcome their second child Amy into their North London home. When the Winehouses split, a nine-year-old Amy and her older brother Alex live mostly with their mother in Southgate</p>
+
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/kindergarden.jpg" alt="Amy baby" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+                <!--/childhood-->
+                <!--high school-->
+                <li>
+                  <button class="tldate" data-toggle="collapse" data-target=".demo1">high school</button>
+                </li>
+
+                <li class="timeline-inverted demo1 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+
+                    <div class="tl-body">
+                      <div class="tl-heading">
+                        <h4>high school</h4>
+                      </div>
+                      <p>He loved music from an early age and just could not stop singing. She was often reprimanded at school for singing during classes.</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-inverted demo1 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/withsteve.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo1 collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+
+                    <div class="tl-body">
+                      <p>He was sent to the Susi Earnshaw Theatre School for four years to receive vocal education.</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo1 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/high-school.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted demo1 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+
+                    <div class="tl-body">
+
+                      <p>He was sent to the Susi Earnshaw Theatre School for four years to receive vocal education.</p>
+                    </div>
+                  </div>
+                </li>
+                <!--/high school-->
+                <!--college-->
+                <li>
+                  <button class="tldate" data-toggle="collapse" data-target=".demo2">college</button>
+                </li>
+
+                <li class="demo2 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+                    <div class="tl-heading">
+                      <h4>Career beginnings</h4>
+                    </div>
+                    <div class="tl-body">
+                      <p>She forms rap duo with friend called Sweet 'n' Sour, inspired by Salt-N-Pepa.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="demo2 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/band.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+                <!--/college-->
+                <!--J-WAVE-->
+
+                <li>
+                  <button class="tldate" data-toggle="collapse" data-target=".demo3">J-WAVE</button>
+                </li>
+
+                <li class="timeline-inverted demo3 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+
+                    <div class="tl-body">
+                      <div class="tl-heading">
+                        <h4>クインシージョーンズとの出会い</h4>
+                      </div>
+                      <p>My nickname "basskie" given by Quincy Jones is more popular in LA.-----------
+                      “She was very bright but she was always messing around,” mom Janis tells London’s Daily Mail in 2007. By 16, Winehouse – who later tells Interview, “I’m not very ambitious at all” – lands a deal with Simon Fuller’s (the man behind American Idol) management company. She eventually signs with Island Records.</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-inverted demo3 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/withQuincy.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo3 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+                    <div class="tl-heading">
+                      <h4>TMさんとの出会い</h4>
+                      <p><small class="text-muted">日付入れる</small></p>
+                    </div>
+                    <div class="tl-body">
+                      <p>Cab driver Mitch Winehouse and his pharmacist wife Janis welcome their second child Amy into their North London home. When the Winehouses split, a nine-year-old Amy and her older brother Alex live mostly with their mother in Southgate</p>
+
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo3 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/withTM.jpg" alt="Amy baby" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+
+                <!--/J=WAVE-->
+                <!--/LAMA-->
+
+                <li>
+                  <button class="tldate" data-toggle="collapse" data-target=".demo4">LAMA</button>
+                </li>
+
+                <li class="timeline-inverted demo4 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+
+                    <div class="tl-body">
+                      <div class="tl-heading">
+                        <h4>Go To America</h4>
+                        <p><small class="text-muted">日付入れる</small></p>
+                      </div>
+                      <p>
+                      “She was very bright but she was always messing around,” mom Janis tells London’s Daily Mail in 2007. By 16, Winehouse – who later tells Interview, “I’m not very ambitious at all” – lands a deal with Simon Fuller’s (the man behind American Idol) management company. She eventually signs with Island Records.</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-inverted demo4 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/withPozzi.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo4 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+                    <div class="tl-heading">
+                      <h4>優勝した</h4>
+                      <p><small class="text-muted">日付</small></p>
+                    </div>
+                    <div class="tl-body">
+                      <p>Cab driver Mitch Winehouse and his pharmacist wife Janis welcome their second child Amy into their North London home. When the Winehouses split, a nine-year-old Amy and her older brother Alex live mostly with their mother in Southgate</p>
+
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo4 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/withRalph.jpg" alt="Amy baby" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+
+                                <li class="timeline-inverted demo4 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+
+                    <div class="tl-body">
+                      <div class="tl-heading">
+                        <h4>Go To Canada</h4>
+                        <p><small class="text-muted">2000年</small></p>
+                      </div>
+                      <p>
+                      プロフェッショナルとしての最初の作品は思い出深いものです。2000年に録音しリリースされた「Miracle」は、幸運にも当代カナダを代表するシンガー、Holly Cole が歌い、J-WAVE クリスマスソングに採用されました。
+
+曲のアイデアは1998年位から温めていて、LA留学中の1999年に完成。2000年の暑い夏にカナダ、トロントでのレコーディング、東芝EMI（当時）とJ-WAVEの皆さんの数え切れない程の後押しを頂いて結実しました。
+
+発売日に全国の友人から届いたメッセージは、いつまでも忘れる事はありません</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-inverted demo4 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/Holly-band.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+                <li class="demo4 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/withHolly.jpg" alt="Amy baby" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+                <!--/LAMA-->
+                <!--飛んで2007*8個 -->
+                <li>
+                  <button class="tldate" data-toggle="collapse" data-target=".demo5">Berklee</button>
+                </li>
+
+                <li class="demo5 demoAll collapse">
+                  <div class="tl-circ"></div>
+                  <div class="timeline-panel">
+                    <div class="tl-heading">
+                      <h4>Berklee</h4>
+                      <p><small class="text-muted">March 13, 2007</small></p>
+                    </div>
+                    <div class="tl-body">
+                      <p> Back to Black enters the Billboard charts at No. 7, the highest debut for a U.K. female at the time, and “Rehab” (Winehouse pictured in Amy Winehousemusic video) peaks at No. 9 on the Hot 100. Entertainment Weekly declares: “It’s a near-perfect [album] that declares not just the arrival of a fully formed talent, but possibly the first major salvo of a new British Invasion.”</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="demo5 demoAll collapse">
+                  <div class="timeline-panel noarrow">
+
+                    <div class="tl-body">
+                      <img src="img/berklee-music.jpg" alt="Amy as a kid" class="img-fluid timeline-img">
+                    </div>
+                  </div>
+                </li>
+
+                <!--/berklee-->
+
+              </ul><!--/timeline-->
+
+
+              <p>プロフィールの文章です。の終わりです...</p>
+            </div><!--/col-->
+          </div><!-- /row -->
+        </div><!-- /container-fluid-->
+
+
+
+
+      </div>
+
+
+      <div id="profile" class="tab-pane background-tab" role="tabpanel" aria-labelledby="profile-tab">
+        プロフィールの文章です。...
+
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              正しい使い方
+
+              <h2>as a...</h2>
+
+              <div class="block tabset">
+                <!--=============== FIRST LABEL ==================-->
+                <input type="radio" name="tabs" id="tab1" checked />
+                <label for="tab1" class="tab-label"><div>Player</div></label>
+                <div class="tab-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in interdum neque. Pellentesque sagittis dolor vitae enim elementum placerat. Aliquam dignissim neque tellus, vehicula tincidunt mauris elementum in. Nam dolor libero, molestie at leo in, porta gravida nisl. Integer mattis fringilla arcu ut aliquet. Fusce vulputate enim eget porttitor feugiat. Vestibulum lacinia vestibulum elit, vel placerat diam ornare ut. Pellentesque lectus ligula, porttitor et dolor non, scelerisque vulputate felis. Phasellus eu nulla in elit faucibus gravida et nec nulla. Nunc gravida eget tellus id faucibus.</p>
+                </div>
+
+                <!--=============== SECOND LABEL ==================-->
+
+                <input type="radio" name="tabs" id="tab2"/>
+                <label for="tab2" class="tab-label"><div>Songwriter</div></label>
+                <div class="tab-content">
+                  <p>
+                    Pellentesque felis lectus, ornare quis orci in, efficitur egestas nibh. Sed tristique ex quis nibh consequat laoreet. Sed ex massa, viverra sit amet nibh eu, bibendum sagittis massa. Ut turpis lorem, luctus vel nunc sit amet, faucibus cursus magna. Etiam mattis lorem at laoreet iaculis. Morbi mollis elit ut tristique aliquet. Aliquam erat volutpat. Cras euismod molestie ex eget tempor. Morbi quis nibh quis quam luctus auctor. Fusce gravida diam eget tincidunt pharetra. Nullam ut lacinia nulla. Sed at mi velit. Nullam pretium lobortis sem, id fringilla purus dapibus in. Fusce porta neque eu justo dictum, non dignissim augue elementum. Vestibulum in laoreet velit. Aliquam ac ligula mollis, mattis ex vitae, tincidunt dolor.
+                  </p>
+                </div>
+
+                <!--=============== THIRD LABEL ==================-->
+
+                <input type="radio" name="tabs" id="tab3"/>
+                <label for="tab3" class="tab-label"><div>Educator</div></label>
+                <div class="tab-content">
+                  <p>
+                    Nullam ac felis ac massa consequat cursus id sed ex. In elementum mauris tortor, dignissim condimentum sem faucibus sed. Aliquam lorem leo, tincidunt vitae luctus in, euismod vel ligula. Mauris sagittis ipsum sit amet mattis aliquet. Praesent vitae tempor mauris. Aenean bibendum ipsum id augue volutpat efficitur. Nulla eu laoreet nisi. Vivamus feugiat pulvinar leo vel semper. Praesent pellentesque, ex nec condimentum ullamcorper, dui arcu posuere quam, vitae efficitur turpis dui eu nisl. Curabitur tincidunt viverra dapibus. Nullam diam ante, placerat et volutpat ut, scelerisque in libero. Donec pretium porttitor nulla, eget rutrum magna venenatis eget. Aliquam sit amet cursus tellus, quis maximus dolor. Phasellus sed enim laoreet, feugiat erat bibendum, vestibulum tellus. Aenean purus orci, varius ut rutrum in, sagittis vitae turpis.〜 Study music 〜
+                    私自身が音楽を本格的に勉強し始めて分かった事は、その奥深さです。果てしない可能性があります。数百年に渡って研究され、体系化されてきた今でも、まだ進化しています。私自身学ぶほどに湧き出る自分の音楽に、喜び、また驚きました。音楽を通じての感動は、今日、この瞬間にも尽きることはありません。音楽は国境、人種、年齢、プロアマ問わず、人と人を、心と心を結びつける素晴らしい芸術です。そして音楽に携わる事の誇り高き人生。毎日の音楽の中に、新しい自分を発見し、この音楽が、大切な人たちとの出会いに繋がっています。
+                    特殊な経歴を経て、プロフェッショナルとして活動の場を頂いてきました。この大好きな音楽、掛け替えのない音楽、多くの先人達が遺してくれた軌跡、私自身が先生達から教わった技術と音楽の心を、ひとりでも多くの人に伝えていきたいとの思いから、講師、研究者としてのキャリアをスタートさせました。有難い事に、音楽教室、専門学校、大学等から講義に招いて頂き、多角的な視点から音楽を見る機会を得ています。
+                    ーーーーーーーーーーーーーーーー
+
+                    そして2011年4月から、JBG音楽院で講師を勤めています。音楽が大好きだけど、楽器の練習に抵抗があったり、譜面や理論に苦手意識があったり、そのような理由でためらっている方たちに、音楽の楽しさを伝えたいと思っています。音楽が大好きだ！という皆さんの想いに応えたい。
+                    音楽を始めるのに、「時遅し」ということはないです。音楽をやることに「時間切れ」や「引退」はありません。あなた自身の「今の熱意」があれば、それが始める時なのです。
+                    私はいつも、生徒にこう伝えています。「音楽を学ぶ事や作曲/アレンジのために必要な音楽理論の修得、楽器の基礎練習は、自己の感性を自由に解き放つ武器」であると。
+                    人間の感性は無限大の可能性を持っています。的確な表現技法を身につける事で、メロディやインプロビゼーションが輝きを増し、より深くリスナーの心に届くことでしょう。
+                    土台を作り、的確な表現方法を身につけ、心に浮かんだ「自分の音楽」を作品にしていきましょう。いろんな音楽や作品をたくさん聴く。感動して、自分自身の中で熟成する。そのことが、やがて人の心を動かす音楽を生み出す力になります。
+                    音楽をやっていて、今いるレベルより少しだけ上を目指すのならば、ジャズを勉強する事は効果的です。世界を狙うには、何を学ぶ必要があるのか。音楽を深めていく時に、私が意識していることや、私自身が学生時代に教わったことなどを紹介します。いいメロディ、いい歌詞は、いつ誰が歌っても心が揺れる。色褪せない。自由な作曲ができるようになりたいですか？リスナーに良い曲だと感じてもらいたいですか？
+                    人は経験から新しいものを作ります。神様の気まぐれで天から降ってくるものでも、爆発でもない。オーディエンスを熱中させる曲、ヒット曲には理由があります。
+                    私がこれまで経験してきた音楽を余すところなく、皆さんにお伝えしていきたいと思います。
+
+                    ーーーーーーーーーーーーーーー
+                    私が「講師」というフィールドに乗り出した理由は、アメリカ留学時の先生方からの教えにあります。
+                    「音楽家は、常に、演奏出来なければならない。新しい表現が出来なければならない。そして誰かの疑問に、全て答えなければならない。それがプロフェッショナルというもの」ということです。
+                    この考え方は、職業として音楽家を志して以来、私自身が追求する生涯の道標となっています。演奏家、作曲家であると同時に、研究者であり、伝承者であり、そして講師なのです。
+                    講師は生徒にすばらしい音楽を伝えることが仕事であり、また音楽の素養を、惜しむことなく生徒に伝えるということが、プロフェッショナルとして、最大の喜びだと確信しています。作曲家、演奏家を問わず、ひとりでも多くの音楽家に成長していって頂ける事が、私自身の存在意義でもあります。
+                  </p>
+                </div>
+              </div>
+
+              <p>プロフィールの文章です。の終わりです...</p>
+            </div><!--/col-->
+          </div><!-- /row -->
+
+
+        </div><!-- /container-fluid-->
+      </div><!-- /background-tab -->
+
+
+    </div><!-- /block tabset -->
+
+
+    <!-- タブここまで -->
+
+  </div>
+
+
+</div><!-- col-12 -->
+
+
+
+</div>
+</section>
+
+</div><!-- #wrapper-->
+
+
+ <!-- Footer.phpここから-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row px-3">
+        <div class="col-lg-3 col-md-12 pl-lg-4">
+          <h6 class="heading-footer  mt-3 mt-lg-0">ABOUT</h6>
+          <p>Hello, this is Ken Araki, the bass player living in Tokyo, playing Jazz, Fusion, Funk and etc... while making a living as a Composer, Arranger, Songwriter and Jazz Educator both bass and composition.</p>
+          <p><span><a href="https://www.jbg-ongakuin.com/">JBG音楽院</a></span></p>
+          <p><i class="fa fa-phone"></i> <span>Call Us :</span> +91 9999 878 398</p>
+          <p><i class="fa fa-envelope"></i> <span>Send Email :</span> info@abcde.com</p>
+        </div>
+        <div class="col-lg-4 col-md-4 pl-lg-4">
+          <h6 class="heading-footer mt-3 mt-lg-0">basskie's Notes</h6>
+          <ul class="footer-ul">
+
+            <div class="row">
+
+              <div class="col-6">
+                <p><span>News</span></p>
+                <li><a href="page-schedule.html"> お知らせ</a></li>
+                <li><a href="page-thisweek.html"> 今週の１枚</a></li>
+                <li><a href="page-uraotolog.html"> 裏音logue</a></li>
+                <li><hr></li>
+                <p><span>Music</span></p>
+                <li><a href="page-gear.html"> Gear</a></li>
+                <li><a href="page-playing.html"> Bass Playing</a></li>
+              </div>
+
+              <div class="col-6">
+                <p><span>Favorite</span></p>
+                <li><a href="page-roots.html"> Roots</a></li>
+                <li><a href="page-musician.html"> Musician</a></li>
+                <li><a href="page-ranking.html"> Ranking</a></li>
+                <li><hr></li>
+                <p><span>Photo Gallery</span></p>
+                <li><a href="page-gallery.html"> Photo Gallery</a></li>
+              </div>
+
+            </div>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h6 class="heading-footer mt-3 mt-lg-0">LATEST NEWS</h6>
+          <div class="post">
+            <p>Title<span>August 3,2015</span></p>
+            <p>Title <span>August 3,2015</span></p>
+            <p>Title<span>August 3,2015</span></p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 social-icons">
+          <h6 class="heading-footer mt-3 mt-lg-0">FOLLOW</h6>
+          <ul class="footer-ul">
+            <li><a href="https://twitter.com/jbgongakuin"><i class=" fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://soundcloud.com/ken-araki"><i class=" fa fa-soundcloud"></i> soundcloud</a></li>
+            <li><a href="#"><i class=" fa fa-youtube"></i> youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright-->
+  <div class="copyright">
+    <div class="container-fluid">
+      <div class="row px-3">
+        <div class="col-lg-6 col-md-4">
+          <p>©2018 <a href="">basskie</a></p>
+        </div>
+        <div class="col-lg-6 col-md-8">
+          <ul class="bottom_ul">
+            <li><a href="index.html">Top</a></li>
+            <li><a href="page-schedule.html">News</a></li>
+            <li><a href="blog.html">Notes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Bootstrap core JavaScript -->
+<!--   <script src="vendor/jquery/jquery.min.js"></script> -->
+<!--   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+  <!-- Plugin JavaScript -->
+
+<!--   <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+<!--   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
+
+
+
+  <!-- Java Script -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- smooth scroll -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/basskie.js"></script>
+  <!-- <script src="js/basskie.min.js"></script> -->
+
+  <script>
+    $(document).ready(function(){
+      // $("#contents-slider").owlCarousel({
+      //   items : 3,
+      //   itemsDesktopSmall:[980,2],
+      //   itemsMobile : [600,1],
+      //   autoPlay:true
+
+      // });
+
+      var $win = $(window);
+
+      $win.on('load resize', function() {
+        var windowWidth = window.innerWidth;
+
+        if (windowWidth > 992) {
+          $(window).scroll(function() {
+            if ($(window).scrollTop() > 500) {
+              $(".navbar").addClass("bg-dark");
+            } else {
+              $(".navbar").removeClass("bg-dark");
+            }
+          });
+        } else {
+
+        }
+      });
+  // If Mobile, add background color when toggler is clicked
+  $(".navbar-toggler").click(function() {
+    if (!$(".navbar-collapse").hasClass("show")) {
+      $(".navbar").addClass("bg-primary");
+    } else {
+      if ($(window).scrollTop() < 56) {
+        $(".navbar").removeClass("bg-primary");
+      } else {
+      }
+    }
+  });
+
+
+  // Background-Accordion
+  $(document).ready(function(){
+
+    activeItem = $("#accordion .first-list");
+    $(activeItem).addClass('active');
+
+    $("#accordion li").hover(function(){
+      $(activeItem).animate({width: "50px"}, {duration:300, queue:false});
+      $(this).animate({width: "900px"}, {duration:300, queue:false});
+      activeItem = this;
+    });
+
+  });
+
+
+
+
+});
+</script>
+
+
+</body>
+
+</html>
+

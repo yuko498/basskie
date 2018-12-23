@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="">
+
+  <title>Blog-basskie</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link href="css/lightbox.min.css" rel="stylesheet">
+  <link href="css/lity.min.css" rel="stylesheet">
+  <link href="css/slidebars.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/loaders.css"/>
+  <!-- <link href="css/gallery.css" rel="stylesheet"> -->
+  <link href="css/ranking.css" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Playfair+Display:400,700" rel="stylesheet"> -->
+
+
+
+
+</head>
+<style type="text/css">
+
+[class*=js-] {
+  cursor: pointer;
+}
+</style>
+<body>
+  <!-- Loader -->
+  <div class="loader loader-bg">
+    <div class="loader-inner ball-pulse-rise">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Sidebar Panel -->
+  <div off-canvas="slidebar-1 left reveal" class="slidebar-menu">
+    <h4 class="px-4">Sidebar Menu</h4>
+    <ul class="list-unstyled px-4">
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Create an Account</a></li>
+      <li><hr></li>
+      <li><a href="#">Our History</a></li>
+      <li><a href="#">Editor's Desk</a></li>
+      <li><a href="#">Top Journalist</a></li>
+      <li><a href="#">Campains</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Advertisement</a></li>
+      <li><a href="#">Contibute</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><hr></li>
+      <li class="social-links">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-vimeo-square"></a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Full page search -->
+<!--   <div id="search">
+    <button type="button" class="close">×</button>
+    <form>
+      <input type="search" value="" placeholder="Enter Keywords" onblur="this.placeholder=' '" />
+      <button type="submit" class="btn btn-primary">Search Now</button>
+    </form>
+  </div> -->
+
+  <div canvas="container">
+
+    <!-- Top small banner -->
+    <header class="float-left w-100">
+      <div class="small-top float-left w-100">
+        <div class="container-fluid">
+          <div class="row px-3">
+            <div class="col-lg-4 date-sec">
+              <div id="Date" class="mt-1">Fri, 8 September 2017</div>
+            </div>
+            <div class="col-lg-3 ml-auto">
+              <div class="social-icon">
+                <a href="#" class=" fa fa-facebook"></a>
+                <a href="#" class=" fa fa-twitter"></a>
+                <a href="#" class=" fa fa-youtube"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-head left">
+        <div class="container-fluid">
+          <div class="row px-3">
+            <div class="col-md-6 col-lg-4 pt-2 m-auto">
+              <h2 class="text-center">basskie notes</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Top Navigation -->
+    <section class="top-nav">
+      <nav class="navbar navbar-expand-lg py-0">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Slidebar Menu -->
+            <div class="menu-handle mr-5">
+              <a href="#" class="js-toggle-left-slidebar">
+                <i class="fa fa-bars"></i>
+                <span class="text-handle">Side Menu</span>
+              </a>
+            </div>
+
+            <!-- Main Navigation リンクのために残しておく-->
+            <ul class="navbar-nav float-left">
+              <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+
+
+
+              <li class="nav-item dropdown mega-dropdown py-0"> <a class="nav-link dropdown-toggle" href="#" id="cards1" data-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false">News</a>
+                <div class="dropdown-menu mega-menu news-menu" aria-labelledby="cards1">
+                  <div class="row px-4 py-4 m-0">
+                    <div class="col">
+                      <div class="card"><a href="#"><img class="img-fluid" src="img/auto.jpg" alt=""></a>
+                        <div class="card-img-overlay">
+                          <h2 class=" title-small"><a href="#">お知らせ</a></h2>
+                        </div>
+                      </div>
+                      <div class="news-title">
+                        <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card"><a href="#"><img class="img-fluid" src="img/tech.jpg" alt=""></a>
+                        <div class="card-img-overlay">
+                          <h2 class=" title-small"><a href="#">今週の１枚</a></h2>
+                        </div>
+                      </div>
+                      <div class="news-title">
+                        <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                      </div>
+
+                    </div>
+
+                    <div class="col">
+                      <div class="card"><a href="#"><img class="img-fluid" src="img/food1.jpg" alt=""></a>
+                        <div class="card-img-overlay">
+                          <h2 class=" title-small"><a href="#">裏音logue</a></h2>
+                        </div>
+                      </div>
+                      <div class="news-title">
+                        <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                </div>
+              </li>
+
+
+
+
+              <div class="btn-group">
+                <li class="nav-item dropdown mega-dropdown py-0"> <a class="nav-link dropdown-toggle" href="#" id="cards2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Music</a>
+
+                  <div class="dropdown-menu dropdown-menu-left mega-menu music-menu" aria-labelledby="cards2">
+                    <div class="row px-4 py-4 m-0">
+                      <div class="col">
+                        <div class="card"><a href="#"><img class="img-fluid" src="img/us.jpg" alt=""></a>
+                          <div class="card-img-overlay">
+                            <h2 class=" title-small"><a href="#">Gear</a></h2>
+                          </div>
+                        </div>
+                        <div class="news-title">
+                          <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card"><a href="#"><img class="img-fluid" src="img/russia.jpg" alt=""></a>
+                          <div class="card-img-overlay">
+                            <h2 class=" title-small"><a href="#">Bass Playing</a></h2>
+                          </div>
+                        </div>
+                        <div class="news-title">
+                          <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div><!-- /.btn-group -->
+              </li>
+
+
+              <li class="nav-item dropdown mega-dropdown py-0"> <a class="nav-link dropdown-toggle" href="#" id="cards3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Favorites</a>
+                <div class="dropdown-menu mega-menu favorite-menu" aria-labelledby="cards3">
+                  <div class="row px-4 py-4 m-0">
+                    <div class="col-lg-4">
+                      <div class="card"><a href="#"><img class="img-fluid" src="img/auto.jpg" alt=""></a>
+                        <div class="card-img-overlay">
+                          <h2 class=" title-small"><a href="#">Roots</a></h2>
+                        </div>
+                      </div>
+                      <div class="news-title">
+                        <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="card"><a href="#"><img class="img-fluid" src="img/tech.jpg" alt=""></a>
+                        <div class="card-img-overlay">
+                          <h2 class=" title-small"><a href="#">Musician</a></h2>
+                        </div>
+                      </div>
+                      <div class="news-title">
+                        <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                      </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div class="card"><a href="#"><img class="img-fluid" src="img/food1.jpg" alt=""></a>
+                        <div class="card-img-overlay">
+                          <h2 class=" title-small"><a href="#">Ranking</a></h2>
+                        </div>
+                      </div>
+                      <div class="news-title">
+                        <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                </div>
+              </li>
+
+              <div class="btn-group">
+                <li class="nav-item dropdown mega-dropdown py-0"> <a class="nav-link dropdown-toggle" href="#" id="cards4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Photo Gallery</a>
+
+                  <div class="dropdown-menu dropdown-menu-left mega-menu photo-menu" aria-labelledby="cards4">
+                   <div class="row px-4 py-4 m-0">
+                     <div class="col">
+                       <div class="card"><a href="#"><img class="img-fluid" src="img/auto.jpg" alt=""></a>
+                         <div class="card-img-overlay">
+                           <h2 class=" title-small"><a href="#">Gallery1</a></h2>
+                         </div>
+                       </div>
+                       <div class="news-title">
+                         <h2 class=" title-small"><a href="#">The best ways to utilize automotive jobs</a></h2>
+                       </div>
+                     </div>
+
+
+
+                   </div>
+                 </div>
+               </div><!-- /.btn-group -->
+             </li>
+
+
+<!--
+             <li class="nav-item"> <a class="nav-link" href="#">Business</a> </li>
+             <li class="nav-item"> <a class="nav-link" href="#">Science</a> </li>
+
+
+             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="layouts" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page Layouts</a>
+              <div class="dropdown-menu" aria-labelledby="layouts">
+                <a class="dropdown-item" href="article-right.html">Right Sidebar</a>
+                <a class="dropdown-item" href="article-left.html">Left Sidebar</a>
+                <a class="dropdown-item" href="article-full.html">Full width</a>
+                <a class="dropdown-item" href="article-image-gallery.html">Gallery Post</a>
+                <a class="dropdown-item" href="article-video.html">Video Post</a>
+                <a class="dropdown-item" href="category-page-list-view.html">Category Listing</a>
+                <a class="dropdown-item" href="category-page-grid.html">Grid Listing</a>
+              </div>
+            </li> -->
+
+
+
+          </ul>
+
+          <!-- Serach section -->
+          <div class="ml-auto search-handle">
+            <a href="#search">
+              <i class="fa fa-search"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Sub Heading Simple -->
+  <section class="sub-header img-bg">
+    <div class="container-fluid">
+      <div class="col-md-6 text-center mx-auto">
+        <h2>Ranking</h2>
+        <h6><a href="#">Home</a> Ranking</h6>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Block ここ-->
+<div class="container">
+  <section class="category-block float-left w-100 mt-3">
+  <!-- 個別ページ ここから-->
+
+
+<div class="grid">
+
+
+    <div class="d-flex justify-content-center py-1 align-items-center item rank-1">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">1st place</p>
+      <h2 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h2>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+    </div>
+  </div>
+
+
+    <div class="d-flex justify-content-center py-1 align-items-center item rank-2">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">2nd place</p>
+      <h2 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h2>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+    </div>
+  </div>
+
+    <div class="d-flex py-1 justify-content-center align-items-center item rank-3">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">3rd place</p>
+      <h4 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h4>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare.
+    </div>
+  </div>
+
+      <div class="d-flex justify-content-center py-1 py-md-4 align-items-center item rank-4">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">4th place</p>
+      <h4 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h4>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare.
+    </div>
+  </div>
+
+      <div class="d-flex justify-content-center py-1 py-md-4 align-items-center item rank-5">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">5th place</p>
+      <h4 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h4>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare.
+    </div>
+  </div>
+
+      <div class="d-flex justify-content-center py-1 py-md-4 align-items-center item rank-6">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">6th place</p>
+      <h2 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h2>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+    </div>
+  </div>
+
+    <div class="d-flex justify-content-center py-1 align-items-center item rank-7">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">7th place</p>
+      <h2 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h2>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+        «La narrativa deve illuminaire, esplodere, ristorare. Non c'è alcuna filosofia morale nella narrativa oltre all'eccellenza. L'intensità della sensibilità e la rapidità le ho sempre ritenute
+ritenute
+    </div>
+  </div>
+
+          <div class="d-flex justify-content-center py-1 py-md-4 align-items-center item rank-8">
+    <div class="w-80 table-cell py-1 py-md-3">
+      <p class="inline-block">8th place</p>
+      <h4 class="playfair b lh-title f1 mv0 pt3">John Cheever</br>non fa riflettere</h4>
+      <p class="pb4 pt3 lora"><span class="i">Alessandro Piperno</span> – p. 156</p>
+      <p class="lora w-90 center lh-title f5">«La narrativa deve illuminaire, esplodere, ristorare.
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>  <!--grid-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>  <!-- grid-->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 個別ページここまで-->
+</section>
+</div>
+  <!-- Footer Section -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row px-3">
+        <div class="col-lg-4 col-md-12">
+          <h6 class="heading-footer">ABOUT US</h6>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+          <p><i class="fa fa-phone"></i> <span>Call Us :</span> +91 9999 878 398</p>
+          <p><i class="fa fa-envelope"></i> <span>Send Email :</span> info@webenlance.com</p>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <h6 class="heading-footer">QUICK LINKS</h6>
+            <ul class="footer-ul">
+              <li><a href="#"> Career</a></li>
+              <li><a href="#"> Privacy Policy</a></li>
+              <li><a href="#"> Terms & Conditions</a></li>
+              <li><a href="#"> Client Gateway</a></li>
+              <li><a href="#"> Ranking</a></li>
+              <li><a href="#"> Case Studies</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <h6 class="heading-footer">LATEST NEWS</h6>
+          <div class="post">
+            <p>Key Republicans sign letter warning against candidate<span>August 3,2015</span></p>
+            <p>Obamacare Appears to Be Making People Healthie <span>August 3,2015</span></p>
+            <p>Syria war: Why the battle for Aleppo matters<span>August 3,2015</span></p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 social-icons">
+          <h6 class="heading-footer">FOLLOW</h6>
+          <ul class="footer-ul">
+            <li><a href="#"><i class=" fa fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class=" fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class=" fa fa-google-plus"></i> Google+</a></li>
+            <li><a href="#"><i class=" fa fa-linkedin"></i> Linkedin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copy footer start from here-->
+  <div class="copyright">
+    <div class="container-fluid">
+      <div class="row px-3">
+        <div class="col-lg-6 col-md-4">
+          <p>© 2017 - <a href="http://grafreez.com">Grafreez.com</a></p>
+        </div>
+        <div class="col-lg-6 col-md-8">
+          <ul class="bottom_ul">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Faq's</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="js/lity.min.js"></script>
+<script type="text/javascript" src="js/slidebars.min.js"></script>
+<script type="text/javascript" src="js/sidebar-scripts.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+
+</body>
+</html>

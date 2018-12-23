@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -11,46 +9,55 @@
   <title>basskie</title>
 
   <!-- Bootstrap core CSS -->
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Owl Carousel jQuery-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"> -->
+
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
 
   <!-- Custom styles for this template -->
-
+    <link href="css/footer.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <!-- <link href="css/otameshi.css" rel="stylesheet"> -->
-
 
 </head>
 
 <body id="page-top">
-<div id="wrapper">
+  <!-- Loader -->
+  <div class="loader loader-bg">
+    <div class="loader-inner ball-pulse-rise">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top shadow-sm px-4" id="mainNav">
-    <div class="container">
+  <div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm px-4" id="mainNav">
+      <div class="container">
+
+        <a class="navbar-brand js-scroll-trigger dropshadow" href="#page-top"><img src="img/title.png" width="100px" alt=""></a>
+        <button class="navbar-toggler navbar-toggler-right dropshadow" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle avigation">
+
+         <i class="navbar-toggler-icon"></i>
+       </button>
 
 
-      <a class="navbar-brand js-scroll-trigger dropshadow" href="#page-top"><img src="img/title.png" width="100px" alt=""></a>
-      <button class="navbar-toggler navbar-toggler-right dropshadow" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle avigation">
 
-       <i class="navbar-toggler-icon"></i>
-     </button>
-
-
-
-     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
-            <a class="nav-link depth0 js-scroll-trigger" href="#">Top</a>
+            <a class="nav-link depth0 js-scroll-trigger" href="index.html">Top</a>
           </li>
 
           <li class="nav-item">
@@ -58,175 +65,98 @@
           </li>
 
 
-        <li class="nav-item d-block d-lg-none border-top-item">
-          <a class="nav-link depth0 js-scroll-trigger" href="#blog">Notes</a>
+          <li class="nav-item d-block d-lg-none border-top-item">
+            <a class="nav-link depth0" href="blog.html">Notes</a>
+            <div class="navbar-nav d-flex flex-row">
+              <div class="nav-item ml-3">
+               <a class="nav-link depth1" href="page-music.html">Music</a>
+             </div>
+
+             <div class="nav-item ml-3">
+               <a class="nav-link depth1" href="page-favorites.html">Favorite</a>
+             </div>
+
+             <div class="nav-item ml-3">
+               <a class="nav-link depth1" href="page-gallery.html">Photo Gallery</a>
+             </div>
+           </div>
+
+         </li>
+
+
+
+
+         <li class="nav-item d-block d-lg-none border-top-item">
+          <a class="nav-link depth0" href="about.html">About</a>
           <div class="navbar-nav d-flex flex-row">
             <div class="nav-item ml-3">
-             <a class="nav-link depth1" href="#new">Music</a>
+             <a class="nav-link depth1" href="about.html">History&Works</a>
            </div>
 
            <div class="nav-item ml-3">
-             <a class="nav-link depth1" href="#new">Favorite</a>
+             <a class="nav-link depth1" href="about.html">Background</a>
            </div>
-         </div>
 
+
+
+         </div>
        </li>
 
 
+      <li class="nav-item d-none d-lg-block">
+        <a class="nav-link depth0 border-top-item" href="blog.html">Notes</a>
+      </li>
 
 
-    <li class="nav-item  d-block d-lg-none border-top-item">
-        <a class="nav-link depth0 js-scroll-trigger" href="#notes">About</a>
-          <div class="navbar-nav d-flex flex-row">
-            <div class="nav-item ml-3">
-             <a class="nav-link depth1" href="#new">History</a>
-           </div>
-
-           <div class="nav-item ml-3">
-             <a class="nav-link depth1" href="#new">Works</a>
-           </div>
-
-           <div class="nav-item ml-3">
-             <a class="nav-link depth1" href="#new">Photo Gallery</a>
-           </div>
-
-         </div>
-    </li>
+      <li class="nav-item d-none d-lg-block">
+        <a class="nav-link depth0 border-top-item" href="about.html">About</a>
+      </li>
 
 
+      <li class="nav-item">
+        <a class="nav-link depth0 js-scroll-trigger border-top-item" href="#contact">Contact</a>
+      </li>
 
-    <div class="nav-item dropdown d-none d-lg-block">
-
-<div class="btn-group">
-      <a class="nav-link dropdown-toggle js-scroll-trigger" href="#notes" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notes</a>
-
-      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-        <div class="container">
-          <div class="row">
-            <div class="border-right-item col-md-6 p-1">
-              <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link border-bottom-item active" href="#">Music</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-0" href="#">Gear</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-0" href="#">Bass Playing</a>
-                </li>
-              </ul>
-            </div>
-
-
-
-
-            <div class="border-right-item col-md-6 p-1">
-              <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link border-bottom-item active" href="#">Favorite</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-0" href="#">Roots</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-0" href="#">Musician</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link pb-0" href="#">Ranking</a>
-                </li>
-              </ul>
-            </div>
-
-
-
-          </div>
-        </div>
+      <div class="social d-flex d-block d-lg-none justify-content-center border-top-item p-3">
+        <a href="#" class="mx-3">
+          <i class=" fa fa-soundcloud"></i>
+        </a>
+        <a href="#" class="mx-3">
+          <i class=" fa fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-3">
+          <i class=" fa fa-youtube"></i>
+        </a>
       </div>
-</div><!-- /btn-group -->
-
-          </div>  <!-- /dropdown1 -->
-
-
-    <div class="nav-item dropdown d-none d-lg-block">
 
 
 
-      <div class="btn-group">
-        <a class="nav-link dropdown-toggle js-scroll-trigger" href="#about" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-
-        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-          <div class="container">
-            <div class="row">
+      <div class="nav-language d-flex justify-content-center d-block d-lg-none">
+       <div class="nav-item">
+         <a class="nav-link language-item" href="#">-Ja-/- </a>
+       </div>
 
 
+       <div class="nav-item">
+         <a class="nav-link language-item" href="#new"> En-</a>
+       </div>
+
+     </div>
+
+   </ul><!-- /navbar-nav ml-auto (navの中で右寄せしたいもの)-->
+ </div><!-- /collapse navbar-collapse -->
 
 
-
-              <div class="border-right-item col-md-12 p-1">
-                <ul class="nav flex-column">
-                  <li class="nav-item">
-                    <a class="nav-link border-bottom-item active" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link pb-0" href="#">History</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link pb-0" href="#">Works</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link pb-0" href="#">Photo Gallery</a>
-                  </li>
-                </ul>
-              </div>
+</div><!-- /container -->
+</nav>
 
 
+<!-- top-header.phpここまで -->
 
-            </div>
-          </div>
-        </div>
-      </div><!-- /.btn-group -->
-
-
-          </div>  <!-- /dropdown2 -->
+<!-- header -->
+<div class="bg fixed"></div>
 
 
-
-          <li class="nav-item">
-            <a class="nav-link depth0 js-scroll-trigger border-top-item" href="#contact">Contact</a>
-          </li>
-
-          <div class="social d-flex d-block d-lg-none justify-content-center border-top-item p-3">
-          <a href="#" class="mx-3">
-            <i class="fab fa-soundcloud"></i>
-          </a>
-          <a href="#" class="mx-3">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="mx-3">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </div>
-
-
-
-            <div class="nav-language d-flex justify-content-center d-block d-lg-none">
-           <div class="nav-item">
-             <a class="nav-link language-item" href="#">Ja</a>
-           </div>
-           <div class="nav-item">
-             <a class="nav-link language-item" href="#new">En</a>
-           </div>
-
-            </div>
-
-        </ul><!-- /navbar-nav ml-auto (navの中で右寄せしたいもの)-->
-      </div><!-- /collapse navbar-collapse -->
-
-
-    </div><!-- /container -->
-  </nav>
-
-  <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
@@ -244,310 +174,359 @@
     </div>
   </header>
 
-  <!-- news Section -->
-  <section id="news" class="news-section">
-    <div class="container">
+
+
+
+<section id="news" class="news-section">
+
+<!-- パンくず -->
+    <div class="col-md-6 text-center m-auto">
+      <h1>News</h1>
+      <h6><a href="#">Home</a> news</h6>
+    </div>
+
+  <div class="section-wrapper mx-auto my-4 my-md-5">
+<div class="cat-item">
+              <div class="new-article-wrapper">
+                <h3 class="mt-0">Why the world would end without political polls</h3>
+                <div class="meta-block">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"> September 10, 2017</li>
+<li class="list-inline-item"><a href="#">今週の１枚</a></li>
+
+
+                  </ul>
+                </div>
+
+
+                 <div class="d-none d-lg-block">
+                   <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                   <a href="#" class="text-primary read-more">Read More</a>
+                 </div><!-- /.d-none -->
+
+              </div>
+<hr>
+              <div class="new-article-wrapper">
+                <h3 class="mt-0">Why the world would end without political polls</h3>
+                <div class="meta-block">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"> September 10, 2017</li>
+<li class="list-inline-item"><a href="#">今週の１枚</a></li>
+
+
+                  </ul>
+                </div>
+
+
+                 <div class="d-none d-lg-block">
+                   <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                   <a href="#" class="text-primary read-more">Read More</a>
+                 </div><!-- /.d-none -->
+
+              </div>
+              <hr>
+
+              <div class="new-article-wrapper">
+                <h3 class="mt-0">Why the world would end without political polls</h3>
+                <div class="meta-block">
+                  <ul class="list-inline">
+                     <li class="list-inline-item"> September 10, 2017</li>
+<li class="list-inline-item"><a href="#">お知らせ</a></li>
+
+
+                  </ul>
+                </div>
+
+
+                 <div class="d-none d-lg-block">
+                   <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                                   <a href="#" class="text-primary read-more">Read More</a>
+                 </div><!-- /.d-none -->
+
+              </div>
+
+</div>
+  </div><!--/news-wrapper col-12 mx-auto -->
+
+
+</section><!--/news-section -->
+
+
+<section id="notes" class="notes-section">
+
+<!-- パンくず -->
+    <div class="col-md-6 text-center m-auto">
+      <h1>Notes</h1>
+      <h6><a href="#">Home</a> notes</h6>
+    </div>
+
+
+
+  <div class="section-wrapper col-12 mx-auto ">
+<!--notes accordion-->
+<div class="site-outer">
+
+  <div class="site-inner">
+    <section class="container-fluid">
+      <!-- ACCORDION ROW -->
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-
-<div class="post">
-  <h7 class=""><span>2015.01.01</span></h7>
-  <h3 class="newpost-title">Title</h3>
-  <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ligula. Duis posuere rutrum urna, eu commodo turpis. Maecenas  </p>
-</div>
-
-<div class="post">
-  <h7 class=""><span>2015.01.01</span></h7>
-  <h3 class="newpost-title">Title</h3>
-  <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ligula. Duis posuere rutrum urna, eu commodo turpis. Maecenas  </p>
-</div>
-
-<div class="post">
-  <h7 class=""><span>2015.01.01</span></h7>
-  <h3 class="newpost-title">Title</h3>
-  <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ligula. Duis posuere rutrum urna, eu commodo turpis. Maecenas  </p>
-</div>
-
-
-          </div>
-        </div>
-        <img src="img/teion_stamp.png" class="img-fluid w-25" alt="">
+          <ul class="accordion-group" id="accordion">
+            <li style="background-image: url('img/b32.jpg');">
+              <div class="accordion-overlay"></div>
+              <h3>News</h3>
+              <section class="hidden-xs">
+                <article>
+                  <p>Schedule,...</p>
+                </article>
+              </section>
+            </li>
+            <li class="out" style="background-image: url('img/b06.jpg');">
+              <div class="accordion-overlay"></div>
+              <h3>Music</h3>
+              <section class="hidden-xs">
+                <article>
+                  <p>Gear, Groovestyle, Solo Melody...
+                  </p>
+                </article>
+              </section>
+            </li>
+            <li style="background-image: url('img/b15.jpg');">
+              <div class="accordion-overlay"></div>
+              <h3>Favorites</h3>
+              <section class="hidden-xs">
+                <article>
+                  <p>Roots, Musician, Ranking</p>
+                </article>
+              </section>
+            </li>
+            <li style="background-image: url('img/b24.jpg');">
+              <div class="accordion-overlay"></div>
+              <h3>Photo Gallery</h3>
+              <section class="hidden-xs">
+                <article>
+                  <p>Photo Gallery</p>
+                </article>
+              </section>
+            </li>
+          </ul>
       </div>
+
     </section>
-
-
-    <!--notes One Row -->
-    <!-- スマホ用notes Section -->
-    <section id="sp-notes" class="notes-section bg-light d-block d-lg-none">
-      <div class="container">
-<!-- Bootstrap CSS -->
-<!-- jQuery first, then Bootstrap JS. -->
-<!-- Nav tabs -->
-<!-- タブ部分 -->
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">ホーム</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">プロフィール</a>
-  </li>
-
-</ul>
-
-<!-- パネル部分 -->
-<div class="tab-content">
-  <div class="tab-pane fade show active" id="tab-music" role="tabpanel" aria-labelledby="home-tab">
-
-
-<div class="container notes-card">
-  <div class="row text-center flex-nowrap">
-    <div class="col-12 col-sm-6">1</div><!--
- --><div class="col-12 col-sm-6">2</div><!--
- --><div class="col-12 col-sm-6">3</div>
   </div>
+
 </div>
 
 
+<!--/notes accordion -->
+  </div><!--/notes-wrapper col-12 mx-auto -->
+
+</section><!--/notes-section -->
+
+
+<section id="about" class="top-about-section">
+
+<!-- パンくず -->
+    <div class="col-md-6 text-center m-auto">
+      <h1>About</h1>
+      <h6><a href="#">Home</a> About</h6>
+    </div>
+
+  <div class="section-wrapper mx-auto my-4 my-md-5">
+
+        <div class="col-lg-2 col-md-4 social-icons">
+          <h6 class="heading-footer mt-3 mt-lg-0">一瞬で作れる色</h6>
+          <ul class="footer-ul">
+            <li><a href="https://twitter.com/jbgongakuin"><i class=" fa fa-twitter fa-3x"></i> color-base</a></li>
+            <li><a href="https://soundcloud.com/ken-araki"><i class=" fa fa-soundcloud fa-3x"></i> white</a></li>
+            <li><a href="#"><i class=" fa fa-youtube fa-3x"></i> ghostwhite</a></li>
+<li><a href="#"><i class=" fa fa-apple fa-3x"></i> text</a></li>
+<li><a href="#"><i class=" fa fa-android fa-3x"></i> black</a></li>
+<li><a href="#"><i class=" fa fa-comment fa-3x"></i> trueblack</a></li>
+<li><a href="#"><i class=" fa fa-play fa-3x"></i> primary</a></li>
+<li><a href="#"><i class=" fa fa-music fa-3x"></i> lightblue</a></li>
+<li><a href="#"><i class=" fa fa-qq fa-3x"></i> darkblue</a></li>
+<li><a href="#"><i class=" fa fa-facebook fa-3x"></i> bluegray</a></li>
+<li><a href="#"><i class=" fa fa-bell fa-3x"></i> lightgray</a></li>
+<li><a href="#"><i class=" fa fa-folder fa-3x"></i> darkgray</a></li>
+          <h6 class="heading-footer mt-3 mt-lg-0">個別設定色</h6>
+<li><a href="#"><i class=" fa fa-circle fa-3x"></i> sand</a></li>
+
+          </ul>
+        </div>
+
+  </div><!--/about-wrapper col-12 mx-auto -->
+
+
+</section><!--/about-section -->
+
+<section id="contact" class="contact-section">
+
+<!-- パンくず -->
+    <div class="col-md-6 text-center m-auto">
+      <h1>Contact</h1>
+      <h6><a href="#">Home</a> Contact</h6>
+    </div>
+
+  <div class="section-wrapper mx-auto my-4 my-md-5">
+
+
+  </div><!--/about-wrapper col-12 mx-auto -->
+
+
+</section><!--/about-section -->
+
+        <!-- </div> -->
+
+
+<!-- <div class="navbar-nav fixed-bottom bg-light d-block d-lg-none" id="bottomNav">
+  <div class="d-flex bd-highlight">
+    <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link active" href="#">Top<span class="sr-only"></span></a></div>
+    <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">Music</a></div>
+    <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">Blog</a></div>
+    <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">Favorite</a></div>
+    <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">About</a></div>
   </div>
-  <div class="tab-pane fade" id="tab-favorite" role="tabpanel" aria-labelledby="profile-tab">...</div>
 
-</div>
-
-
-
-      </div>
-    </section>
-
-    <!-- PC用notes Section -->
-    <section id="notes" class="notes-section bg-light d-none d-lg-block">
-      <div class="container">
-
-
-
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-lg-0 bg-trueblack">
-          <div class="col-lg-6">
-            <img class="notes-img img-fluid float-left" src="img/b05.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="notes-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">MUSIC</h4>
-                  <p class="mb-0 text-white-50">機材・奏法紹介ページです</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-                <!-- Project Four Row -->
-        <div class="row justify-content-center no-gutters bg-trueblack">
-          <div class="col-lg-6">
-            <img class="notes-img img-fluid float-right" src="img/b25.jpg" alt="">
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="notes-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Favorite</h4>
-                  <p class="mb-0 text-white-50">Favoriteです</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                  <a href="#about" class="btn">View more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-
-
-    <!-- about Section -->
-    <section id="profile" class="profile-section bg-light">
-      <div class="container">
-
-        <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="profile-text text-center text-lg-left">
-              <h4>about</h4>
-              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-            </div>
-            <a href="#about" class="btn">View more</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section bg-black">
-      <div class="container">
-
-        <div class="row">
-
-          <!-- <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">
-                  <a href="#">hello@yourdomain.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">+1 (555) 902-8832</div>
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-    </section>
-
-
-
-    <div class="navbar-nav fixed-bottom bg-light d-block d-lg-none" id="bottomNav">
-      <div class="d-flex bd-highlight">
-        <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link active" href="#">Top<span class="sr-only"></span></a></div>
-        <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">Music</a></div>
-        <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">Blog</a></div>
-        <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">Favorite</a></div>
-        <div class="p-2 flex-fill bd-highlight text-center border border-right-0"><a class="nav-item nav-link w-100" href="#">About</a></div>
-      </div>
-
-    </div><!-- /.navbar-nav -->
+</div> --><!-- /.navbar-nav
+ -->
 
 </div><!-- #wrapper-->
 
 
-    <!-- Footer -->
-    <footer class="bg-dark small text-center text-white-50">
 
-<div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
 
-        </ul>
+  <!-- Footer.phpここから-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row px-3">
+        <div class="col-lg-3 col-md-12 pl-lg-4">
+          <h6 class="heading-footer  mt-3 mt-lg-0">ABOUT</h6>
+          <p>Hello, this is Ken Araki, the bass player living in Tokyo, playing Jazz, Fusion, Funk and etc... while making a living as a Composer, Arranger, Songwriter and Jazz Educator both bass and composition.</p>
+          <p><span><a href="https://www.jbg-ongakuin.com/">JBG音楽院</a></span></p>
+          <p><i class="fa fa-phone"></i> <span>Call Us :</span> +91 9999 878 398</p>
+          <p><i class="fa fa-envelope"></i> <span>Send Email :</span> info@abcde.com</p>
+        </div>
+        <div class="col-lg-4 col-md-4 pl-lg-4">
+          <h6 class="heading-footer mt-3 mt-lg-0">basskie's Notes</h6>
+          <ul class="footer-ul">
+
+            <div class="row">
+
+              <div class="col-6">
+                <p><span>News</span></p>
+                <li><a href="page-schedule.html"> お知らせ</a></li>
+                <li><a href="page-thisweek.html"> 今週の１枚</a></li>
+                <li><a href="page-uraotolog.html"> 裏音logue</a></li>
+                <li><hr></li>
+                <p><span>Music</span></p>
+                <li><a href="page-gear.html"> Gear</a></li>
+                <li><a href="page-playing.html"> Bass Playing</a></li>
+              </div>
+
+              <div class="col-6">
+                <p><span>Favorite</span></p>
+                <li><a href="page-roots.html"> Roots</a></li>
+                <li><a href="page-musician.html"> Musician</a></li>
+                <li><a href="page-ranking.html"> Ranking</a></li>
+                <li><hr></li>
+                <p><span>Photo Gallery</span></p>
+                <li><a href="page-gallery.html"> Photo Gallery</a></li>
+              </div>
+
+            </div>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h6 class="heading-footer mt-3 mt-lg-0">LATEST NEWS</h6>
+          <div class="post">
+            <p>Title<span>August 3,2015</span></p>
+            <p>Title <span>August 3,2015</span></p>
+            <p>Title<span>August 3,2015</span></p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 social-icons">
+          <h6 class="heading-footer mt-3 mt-lg-0">FOLLOW</h6>
+          <ul class="footer-ul">
+            <li><a href="https://twitter.com/jbgongakuin"><i class=" fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://soundcloud.com/ken-araki"><i class=" fa fa-soundcloud"></i> soundcloud</a></li>
+            <li><a href="#"><i class=" fa fa-youtube"></i> youtube</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+  </footer>
 
-
-        <div class="social d-flex justify-content-center">
-          <a href="#" class="mx-2">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
+  <!-- Copyright-->
+  <div class="copyright">
+    <div class="container-fluid">
+      <div class="row px-3">
+        <div class="col-lg-6 col-md-4">
+          <p>©2018 <a href="">basskie</a></p>
         </div>
-
-      <div class="container">
-        Copyright &copy; Your Website 2018
+        <div class="col-lg-6 col-md-8">
+          <ul class="bottom_ul">
+            <li><a href="index.html">Top</a></li>
+            <li><a href="page-schedule.html">News</a></li>
+            <li><a href="blog.html">Notes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-    </footer>
+    </div>
+  </div>
+
+  <!--Bootstrap core JavaScript -->
+<!--   <script src="vendor/jquery/jquery.min.js"></script> -->
+<!--   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+  <!-- Plugin JavaScript -->
+
+<!--   <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+<!--   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
 
 
 
+  <!-- Java Script -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!--Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- smooth scroll -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/basskie.js"></script>
+  <!-- <script src="js/basskie.min.js"></script> -->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/basskie.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // $("#contents-slider").owlCarousel({
+      //   items : 3,
+      //   itemsDesktopSmall:[980,2],
+      //   itemsMobile : [600,1],
+      //   autoPlay:true
 
+      // });
 
-    <script>
-      $(document).ready(function(){
-        $("#contents-slider").owlCarousel({
-          items : 3,
-          itemsDesktopSmall:[980,2],
-          itemsMobile : [600,1],
-          autoPlay:true
+      var $win = $(window);
 
-        });
+      $win.on('load resize', function() {
+        var windowWidth = window.innerWidth;
 
-        var $win = $(window);
+        if (windowWidth > 992) {
+          $(window).scroll(function() {
+            if ($(window).scrollTop() > 500) {
+              $(".navbar").addClass("bg-dark");
+            } else {
+              $(".navbar").removeClass("bg-dark");
+            }
+          });
+        } else {
 
-        $win.on('load resize', function() {
-          var windowWidth = window.innerWidth;
-
-          if (windowWidth > 992) {
-            $(window).scroll(function() {
-              if ($(window).scrollTop() > 500) {
-                $(".navbar").addClass("bg-dark");
-              } else {
-                $(".navbar").removeClass("bg-dark");
-              }
-            });
-          } else {
-
-          }
-        });
+        }
+      });
   // If Mobile, add background color when toggler is clicked
   $(".navbar-toggler").click(function() {
     if (!$(".navbar-collapse").hasClass("show")) {
@@ -560,7 +539,79 @@
     }
   });
 
+
+  // Background-Accordion
+  // $(document).ready(function(){
+
+  //   activeItem = $("#accordion .first-list");
+  //   $(activeItem).addClass('active');
+
+  //   $("#accordion li").hover(function(){
+  //     $(activeItem).animate({width: "50px"}, {duration:300, queue:false});
+  //     $(this).animate({width: "900px"}, {duration:300, queue:false});
+  //     activeItem = this;
+  //   });
+
+  // });
+
+
+
+
 });
+
+(function () {
+    var expand;
+    expand = function () {
+        var $input, $search;
+        $search = $('.search');
+        $input = $('.input');
+        if ($search.hasClass('close')) {
+            $search.removeClass('close');
+            $input.removeClass('square');
+        } else {
+            $search.addClass('close');
+            $input.addClass('square');
+        }
+        if ($search.hasClass('close')) {
+            $input.focus();
+        } else {
+            $input.blur();
+        }
+    };
+    $(function () {
+        var $accordion, $wideScreen;
+        $accordion = $('#accordion').children('li');
+        $wideScreen = $(window).width() > 767;
+        if ($wideScreen) {
+            $accordion.on('mouseenter click', function (e) {
+                var $this;
+                e.stopPropagation();
+                $this = $(this);
+                if ($this.hasClass('out')) {
+                    $this.addClass('out');
+                } else {
+                    $this.addClass('out');
+                    $this.siblings().removeClass('out');
+                }
+            });
+        } else {
+            $accordion.on('touchstart touchend', function (e) {
+                var $this;
+                e.stopPropagation();
+                $this = $(this);
+                if ($this.hasClass('out')) {
+                    $this.addClass('out');
+                } else {
+                    $this.addClass('out');
+                    $this.siblings().removeClass('out');
+                }
+            });
+        }
+    });
+
+}.call(this));
+
+
 </script>
 
 

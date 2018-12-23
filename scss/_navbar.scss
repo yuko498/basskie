@@ -1,6 +1,112 @@
+
+// #bottomNav{
+
+
+// .quickNav {
+
+//   position: fixed;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     height: 100vh;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: rgba(0, 0, 0, .4);
+//     opacity: 0;
+//     transition: opacity .4s ease;
+//     will-change: opacity;
+//   }
+
+//   &.active::before {
+//     opacity: 1;
+//   }
+
+//   &__items {
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-around;
+//     background: white;
+//     box-shadow: 0 -1px 3px rgba(0, 0, 0, .05);
+//     z-index: 1;
+//   }
+
+//   &__item {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: .5em 0;
+//     text-decoration: none;
+//   }
+
+//   &__icon {
+//     margin: 0 0 .25em;
+//     width: 2em;
+//     height: 2em;
+//     background: black;
+//     border-radius: 100%;
+//     opacity: .4;
+//     transition: opacity .4s ease;
+//     will-change: opacity;
+//   }
+
+//   &__item.active &__icon {
+//     opacity: 1;
+//   }
+
+//   &__label {
+//     color: #222;
+//     font-size: .8em;
+//     transition: color .4s ease;
+//   }
+
+//   &__item.active &__label {
+//     background: #00;
+//   }
+
+//   &__menu {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     background: white;
+//     box-shadow: 0 -2px 3px rgba(0, 0, 0, .05);
+//     transform: translateY(10%);
+//     transition: transform .4s ease;
+//     will-change: transform;
+
+//     &.active {
+//       transform: translateY(-100%);
+//     }
+//   }
+
+//   &__link {
+//     display: block;
+//     padding: 1em;
+//     color: #222;
+//     text-decoration: none;
+//     border-bottom: 1px solid rgba(0, 0, 0, .05);
+//   }
+
+// }
+// }
+
+// body {
+//   background: #eee;
+// }
+
+
+
 #mainNav {
   min-height: 56px;
   background-color: transparent;
+
+
 
   .navbar-toggler {
     padding: 0.25rem 0.75rem;
@@ -28,10 +134,15 @@
     }
     &:active, &:focus {
       outline: none;
-      background-color: #161616;
+      // background-color: #161616;
     }
   }
 }
+
+
+
+
+
 
 /*  SP スマホ only  */
 @media screen and (max-width: 992px) {
@@ -83,17 +194,24 @@
   margin-right: .2em;
 }
 
+}
+
+
 
   }
-}
+
 
 /*breakpoint and up - mega dropdown styles*/
 @media screen and (min-width: 992px) {
   /*remove the padding from the navbar so the dropdown hover state is not broken*/
+
+
+    #mainNav {
   .navbar {
     padding-top: 0px;
     padding-bottom: 0px;
     background-color :transparentize($darkblue, 0.8);
+
 
     .nav-item {
       padding: 0rem;
@@ -113,19 +231,33 @@
       top: 64px;
       display: block;
       visibility: hidden;
-      opacity: 0.9;
+      // opacity: 0.9;
       transition: visibility 0s, opacity 0.3s linear;
       // border:3px solid rgba(0,0,0,.15);
       border: none;
       background-color: transparentize($darkblue, 0.5);
 
     }
+.dropdown-menu:before {
+  content: '';
+    background: inherit;
+opacity: 0.9;
+filter: blur(10px);
+
+}
+
+
         .dropdown-menu-right {
-      width: 30rem;
+      width: 40rem;
+      height: 15rem;
     }
 
+
+
+
             .dropdown-menu-left {
-      width: 20rem;
+      width: 13rem;
+            height: 15rem;
     }
 
 
@@ -160,6 +292,7 @@
 
 
   }
+}
   /*remove the padding from the nav-item and add some margin to give some breathing room on hovers*/
   /* makes the dropdown full width  */
   /* shows the dropdown menu on hover */

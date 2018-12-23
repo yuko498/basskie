@@ -1,12 +1,29 @@
+@import url('../css/font-awesome.min.css');
+
 @import 'variables.scss';
+
 @import 'mixins.scss';
-@import 'navbar.scss';
-@import 'masthead.scss';
-@import 'buttons.scss';
-@import 'news.scss';
-@import 'notes.scss';
 @import 'about.scss';
-@import 'contact.scss';
+
+
+@import 'buttons.scss';
+
+// @import 'news.scss';
+// @import 'notes.scss';
+// @import 'masthead.scss';
+// @import 'contact.scss';
+@import 'about.scss';
+@import 'top.scss';
+
+
+@import 'navbar.scss';
+
+
+// index.html共通設定
+
+[class*=js-] {
+  cursor: pointer;
+}
 
 body {
   font-family: 'Nunito';
@@ -62,4 +79,5 @@ ul {
 
 footer {
   padding: 5rem 0;
+background-color: transparentize($darkblue, 0.2) !important;
 }

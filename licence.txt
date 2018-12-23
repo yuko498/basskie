@@ -1,0 +1,6 @@
+Regular Licence Copyright (c) 2016-2017 Grafreez.com
+All rights to this template are owned by Grafreez.com. The website template is licensed only to you or your employer if you are licensing on behalf of your employer. 
+You can create multiple end products for your client, and you can charge any fee for transferring those products to your client. So the license is then transferred to your client.
+You can’t re-distribute the Item as stock, in a tool or template, or with source files. You can’t do this with an Item either on its own or bundled with other items, and even if you modify the Item. You can’t re-distribute or make available the Item as-is or with superficial modifications. These things are not allowed even if the re-distribution is for Free. You can’t use an Item in a logo, trademark, or service mark.
+Some Items, even if entirely created by the author, may be partially subject to the open source license: a ‘split license’ applies. This means that the open source license applies to an extent that’s determined by the open source license terms and the nature of the Item, and this license applies to the rest of the Item.
+

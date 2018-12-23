@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body {
+  background-color: #FFFF63; }
+
+.ranking {
+  /*.title {
+    font-size: 130px;
+    margin-top: 0;
+  }*/
+  /*.item-j {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }*/
+  /* 以下二つはトップ真ん中のタイトル */
+  /* CDタイトルのフォント */
+  /* item6のpのフォント */
+  /* 1枠全部 */
+  /* 戻るときもスムーズ */ }
+  .ranking h2 {
+    color: #fff; }
+  .ranking .grid {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px auto; }
+  .ranking p {
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+    text-decoration: none;
+    font-family: lato;
+    font-size: 12px;
+    color: #333;
+    display: block;
+    float: left; }
+  .ranking .rank-1 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    background: url(../img/rank1.jpg) no-repeat center center;
+    background-size: auto 500px; }
+  .ranking .rank-2 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    border: 1px solid #000;
+    background: url(../img/rank2.jpg) no-repeat center center;
+    background-size: auto 550px; }
+  .ranking .rank-3 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    background: url(../img/rank3.jpg) no-repeat center center;
+    background-size: auto 550px; }
+  .ranking .rank-4 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 10;
+    grid-row-end: 13;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000; }
+  .ranking .rank-5 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 13;
+    grid-row-end: 16;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; }
+  .ranking .rank-6 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 16;
+    grid-row-end: 19;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; }
+  .ranking .rank-7 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 19;
+    grid-row-end: 22;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000; }
+  .ranking .rank-8 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 22;
+    grid-row-end: 25;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000; }
+  .ranking .border-interrupt {
+    background-color: #FFFF63; }
+  .ranking .playfair {
+    font-family: 'Playfair Display', serif; }
+  .ranking .lora {
+    font-family: 'Lora', serif; }
+  .ranking .f8 {
+    font-size: .78rem; }
+  .ranking .item {
+    transition: all 0.25s ease; }
+    .ranking .item:hover {
+      background-color: #222;
+      color: #FFFF63;
+      transition: all 0.25s ease; }
+  @media (min-width: 768px) {
+    .ranking {
+      /*  .title {
+          font-size: 130px;
+          margin-top: 0;
+        }*/
+      /*  .item-a {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 3;
+        }*/
+      /*  .item-j {
+          grid-column-start: 2;
+          grid-column-end: 4;
+          grid-row-start: 3;
+          grid-row-end: 5;
+        }*/ }
+      .ranking .grid {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px 127px 127px 127px 127px 127px 127px 127px 127px 127px;
+        margin: 100px auto; }
+      .ranking p {
+        display: inline-block;
+        top: 0;
+        left: 0; }
+      .ranking .rank-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-right: none; }
+      .ranking .rank-2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        border: 1px solid #000; }
+      .ranking .rank-3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000; }
+      .ranking .rank-4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #000; }
+      .ranking .rank-5 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        border-left: 1px solid #000;
+        border-bottom: none;
+        border-right: none; }
+      .ranking .rank-6 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 9;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000; }
+      .ranking .rank-7 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 9;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-right: none; }
+      .ranking .rank-8 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        border-left: 1px solid #000;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-right: none; }
+      .ranking .mobile-message {
+        display: none; } }
+
+/*# sourceMappingURL=ranking.css.map */

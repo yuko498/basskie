@@ -1,0 +1,103 @@
+/*Footer Style*/
+footer {
+  background-color: #141517;
+  float: left;
+  padding: 40px 0 20px;
+  width: 100%; }
+  footer .heading-footer {
+    color: #d9d6d6;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 22px; }
+  footer p {
+    color: #a0a3a4;
+    font-size: 14px; }
+    footer p a {
+      color: #fff;
+      font-size: 14px; }
+    footer p span {
+      color: #fff; }
+  footer .footer-ul {
+    list-style-type: none;
+    margin-left: 2px;
+    padding-left: 0; }
+    footer .footer-ul li {
+      font-size: 14px;
+      margin-bottom: 10px;
+      line-height: 13px; }
+      footer .footer-ul li a {
+        color: #a0a3a4;
+        transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+  footer .post p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px; }
+    footer .post p span {
+      color: #8f8f8f;
+      display: block;
+      font-size: 12px; }
+  footer .social-icons i {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #141517;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 30px; }
+  footer .footer-ul i {
+    margin-right: 10px; }
+
+/*footer .footer-ul p span {
+    display: block;
+    padding-top: 15px;
+
+}*/
+.copyright {
+  background-color: #000;
+  float: left;
+  min-height: 40px;
+  width: 100%; }
+  .copyright p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 10px 0;
+    text-align: left; }
+  .copyright a {
+    color: #fff; }
+  .copyright .bottom_ul {
+    float: right;
+    list-style-type: none;
+    margin-bottom: 0; }
+
+.bottom_ul li {
+  float: left;
+  line-height: 40px; }
+  .bottom_ul li a {
+    color: #fff;
+    font-size: 12px; }
+  .bottom_ul li::after {
+    color: #fff;
+    content: "/";
+    margin-left: 8px;
+    margin-right: 8px; }
+  .bottom_ul li:last-child::after {
+    content: ""; }
+
+@media only screen and (max-width: 990px) {
+  .top-nav .menu-handle {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: auto; }
+    .top-nav .menu-handle i {
+      display: none; }
+    .top-nav .menu-handle .text-handle {
+      display: block; } }
+@media only screen and (max-width: 767px) {
+  .admin-bar {
+    display: none; } }
+
+/*# sourceMappingURL=footer.css.map */
